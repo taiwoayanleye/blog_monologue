@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'mysql2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use sqlite3 as the database for Active Record
@@ -29,6 +29,10 @@ gem 'spring',        group: :development
 gem 'monologue', github: 'junzhez/monologue'
 
 gem "bcrypt"
+
+gem 'capistrano', '~> 3.1.0'
+gem 'capistrano-rails', '~> 1.1.1'
+gem 'capistrano-bundler', '~> 1.1.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
